@@ -23,6 +23,7 @@ nl.run({
         'result-codes', 
         { name: 'latency', percentiles: [0.9, 0.99] },
         'concurrency',
+        'rps',
         'uniques',
         { name: 'http-errors', successCodes: [200,404], log: 'http-errors.log' }
     ],
