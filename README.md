@@ -21,9 +21,9 @@ Make sure [node.js](http://nodejs.org/#download) is installed. Then install `nod
 NODELOAD
 ================
 
-`nodeload` is collection of independent [node.js](http://nodejs.org/) modules for load testing HTTP services.
+`nodeload` is a collection of independent [node.js](http://nodejs.org/) modules for load testing HTTP services.
 
-As a developer, you should be able write load tests and get informative reports without having to learn another framework. You should be able to build by example and selectively use the parts of a tool that fit your task. Being a library means that you can use as much or as little of `nodeload` as makes sense, and you can create load tests with the power of a full programming language. For example, if you need to execute some function at a given rate, just use the [`'nodeload/loop'`](https://github.com/benschmaus/nodeload/tree/master/doc/loop.md) module, and write the rest yourself.
+As a developer, you should be able to write load tests and get informative reports without having to learn another framework. You should be able to build by example and selectively use the parts of a tool that fit your task. Being a library means that you can use as much or as little of `nodeload` as makes sense, and you can create load tests with the power of a full programming language. For example, if you need to execute some function at a given rate, just use the [`'nodeload/loop'`](https://github.com/benschmaus/nodeload/tree/master/doc/loop.md) module, and write the rest yourself.
 
 In addition, `nodeload` is built for operability. It can always be deployed by simply copying the single file, `nodeload.js`.
 
