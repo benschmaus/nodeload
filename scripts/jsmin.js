@@ -366,11 +366,10 @@ function jsmin(input, level, comment) {
 }
 
 // Make jsmin a runnable application
-var sys = require('sys');
 if (process.argv.length == 3) {
     // Read from file and write to stdout
     var fs = require('fs');
-    input = fs.readFile(process.argv[2], 'binary', function(err, data) { sys.puts(data) });
+    input = fs.readFile(process.argv[2], 'binary', function(err, data) { console.log(data) });
 } else {
     // Read from stdin and write to stdout
     var stdin = process.openStdin();
@@ -379,6 +378,6 @@ if (process.argv.length == 3) {
       input += chunk;
     });
     stdin.on('end', function () {
-        sys.puts(jsmin(input));
+        console.log(jsmin(input));
     });
 }

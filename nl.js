@@ -26,9 +26,6 @@
 */
 
 /*jslint sub:true */
-/*globals __dirname */
-
-require.paths.unshift(__dirname);
 
 var options = require('./lib/nl/options');
 options.process();

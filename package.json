@@ -5,7 +5,7 @@
     "keywords": ["testing", "load testing", "http"],
     "homepage": "https://github.com/benschmaus/nodeload",
     "engines": {
-        "node": "0.4"
+        "node": ">=0.4"
     },
     "contributors": [
         "Benjamin Schmaus <benjamin.schmaus@gmail.com>",
@@ -38,6 +38,7 @@
         "expresso": ">=0.7.7"
     },
     "dependencies": {
+        "optparse": "1.0.3"
     },
     "licenses": [
         {
