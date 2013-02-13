@@ -7,14 +7,9 @@
     "engines": {
         "node": ">=0.4"
     },
-    "contributors": [
-        "Benjamin Schmaus <benjamin.schmaus@gmail.com>",
-        "Jonathan Lee <jonjlee@gmail.com>",
-        "Robert Newson <robert.newson@gmail.com>",
-        "Michael Mattozzi <mike.mattozzi@gmail.com>"
-    ],
+    "contributors": ["Benjamin Schmaus <benjamin.schmaus@gmail.com>", "Jonathan Lee <jonjlee@gmail.com>", "Robert Newson <robert.newson@gmail.com>", "Michael Mattozzi <mike.mattozzi@gmail.com>"],
     "bugs": {
-        "web" : "https://github.com/benschmaus/nodeload/issues"
+        "web": "https://github.com/benschmaus/nodeload/issues"
     },
     "repository": {
         "type": "git",
@@ -38,12 +33,16 @@
         "expresso": ">=0.7.7"
     },
     "dependencies": {
-        "optparse": "1.0.3"
+        "optparse": "1.0.3",
+        "underscore": "~1.4.3",
+        "underscore.string": "~2.3.1",
+        "traverse": "~0.6.3",
+        "superagent": "~0.12.1",
+        "temp": "~0.5.0",
+        "async": "~0.1.22"
     },
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "https://github.com/benschmaus/nodeload/raw/master/LICENSE"
-        }
-    ]
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/benschmaus/nodeload/raw/master/LICENSE"
+    }]
 }
