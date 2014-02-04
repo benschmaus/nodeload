@@ -46,7 +46,7 @@ Some handy features of `nodeload` worth mentioning.
         Content-Length: 50763
         Connection: keep-alive
         
-        var sys = require('sys');
+        var util = require('util');
         var http = require('http');
         ...
 
@@ -58,7 +58,7 @@ Some handy features of `nodeload` worth mentioning.
         Serving progress report on port 8000.
         Opening log files.
         Received remote command:
-        sys.puts("hello!")
+        util.puts("hello!")
         hello!
         
-        $ curl -i -d 'sys.puts("hello!")' localhost:8000/remote     # executed in a separate terminal
+        $ curl -i -d 'util.puts("hello!")' localhost:8000/remote     # executed in a separate terminal
